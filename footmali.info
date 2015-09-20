@@ -122,8 +122,6 @@ dependencies[] = views_ui
 ; jQuery Load
 dependencies[] = jquery_ajax_load
 dependencies[] = jquery_ajax_load_node
-; user-interface
-dependencies[] = gd_infinite_scroll
 ; Features
 dependencies[] = features
 dependencies[] = features_override
