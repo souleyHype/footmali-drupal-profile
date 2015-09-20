@@ -1,0 +1,31 @@
+; footmali make file for local development
+core = "7.x"
+api = "2"
+
+projects[drupal][version] = "7.x"
+; include the d.o. profile base
+includes[] = "drupal-org.make"
+
+; +++++ Libraries +++++
+
+; autopager
+libraries[autopager][directory_name] = "autopager"
+libraries[autopager][type] = "library"
+libraries[autopager][destination] = "libraries"
+libraries[autopager][download][type] = "get"
+libraries[autopager][download][url] = "" ; TODO add download URI
+
+; spyc
+libraries[spyc][directory_name] = "spyc"
+libraries[spyc][type] = "library"
+libraries[spyc][destination] = "libraries"
+libraries[spyc][download][type] = "get"
+libraries[spyc][download][url] = "" ; TODO add download URI
+
+; tinymce
+libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][type] = "library"
+libraries[tinymce][destination] = "libraries"
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "" ; TODO add download URI
+
