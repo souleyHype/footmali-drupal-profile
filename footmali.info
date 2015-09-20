@@ -55,7 +55,6 @@ dependencies[] = devel
 dependencies[] = devel_generate
 dependencies[] = devel_node_access
 dependencies[] = devel_themer
-dependencies[] = profiler_builder
 ; Feeds
 dependencies[] = feeds
 dependencies[] = feeds_ui
