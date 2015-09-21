@@ -1,5 +1,6 @@
 name = Footmali
-description = Footmali standard dev setup.
+description = Install with commonly used features pre-configured for Footmali.
+version = VERSION
 core = 7.x
 dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
