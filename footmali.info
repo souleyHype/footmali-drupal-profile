@@ -1,17 +1,11 @@
 name = Footmali
 description = Footmali standard dev setup.
 core = 7.x
-; ----------
-; Dependencies
-; ----------
-; Administration
 dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
 dependencies[] = module_filter
-; Chaos tool suite
 dependencies[] = bulk_export
 dependencies[] = ctools
-; Core
 dependencies[] = block
 dependencies[] = blog
 dependencies[] = contextual
@@ -42,37 +36,29 @@ dependencies[] = text
 dependencies[] = translation
 dependencies[] = trigger
 dependencies[] = user
-; Date/Time
 dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_popup
-; Deployment
 dependencies[] = deploy
 dependencies[] = deploy_services
 dependencies[] = deploy_ui
-; Development
 dependencies[] = devel
 dependencies[] = devel_generate
 dependencies[] = devel_node_access
 dependencies[] = devel_themer
-; Feeds
 dependencies[] = feeds
 dependencies[] = feeds_ui
-; Fields
 dependencies[] = entityreference
 dependencies[] = field_collection
 dependencies[] = field_group
 dependencies[] = node_reference
 dependencies[] = references
 dependencies[] = user_reference
-; Filter
 dependencies[] = simplehtmldom
-; Form Elements
 dependencies[] = hierarchical_select
 dependencies[] = hs_flatlist
 dependencies[] = hs_taxonomy
 dependencies[] = hser
-; Media
 dependencies[] = file_entity
 dependencies[] = media
 dependencies[] = media_internet
@@ -80,9 +66,7 @@ dependencies[] = media_wysiwyg
 dependencies[] = media_wysiwyg_view_mode
 dependencies[] = video_embed_facebook
 dependencies[] = video_embed_field
-; Multilingual
 dependencies[] = l10n_client
-; Other
 dependencies[] = backup_migrate
 dependencies[] = diff
 dependencies[] = entity
@@ -97,31 +81,22 @@ dependencies[] = node_embed
 dependencies[] = pathauto
 dependencies[] = reference_option_limit
 dependencies[] = token
-; Rules
 dependencies[] = rules
 dependencies[] = rules_admin
 dependencies[] = rules_scheduler
-; Services
 dependencies[] = services
-; Services - resources
 dependencies[] = uuid_services
-; Services - servers
 dependencies[] = rest_server
-; UUID
 dependencies[] = uuid
 dependencies[] = uuid_path
-; User interface
 dependencies[] = jquery_update
 dependencies[] = wysiwyg
 dependencies[] = wysiwyg_codemagic
-; Views
 dependencies[] = views
 dependencies[] = views_infinite_scroll
 dependencies[] = views_ui
-; jQuery Load
 dependencies[] = jquery_ajax_load
 dependencies[] = jquery_ajax_load_node
-; Features
 dependencies[] = features
 dependencies[] = features_override
 dependencies[] = feeds_import
