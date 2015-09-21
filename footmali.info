@@ -1,5 +1,5 @@
-name = "Footmali"
-description = "Footmali default setup"
+name = Footmali
+description = Footmali standard dev setup.
 core = 7.x
 ; ----------
 ; Dependencies
